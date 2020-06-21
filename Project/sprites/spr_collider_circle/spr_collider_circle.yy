@@ -70,8 +70,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"6327935a-1f8f-4d43-ae49-5faca146401d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Colliders",
+    "path": "folders/Sprites/Colliders.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_collider_circle",

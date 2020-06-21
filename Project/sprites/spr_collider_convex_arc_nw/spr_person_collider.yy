@@ -1,6 +1,6 @@
 {
   "bboxMode": 0,
-  "collisionKind": 5,
+  "collisionKind": 1,
   "separateMasks": false,
   "type": 0,
   "origin": 4,
@@ -25,12 +25,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"583c4071-7c95-4ffb-b031-7566e0af45ed","path":"sprites/spr_collider_rect/spr_collider_rect.yy",},"LayerId":null,"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"583c4071-7c95-4ffb-b031-7566e0af45ed","path":"sprites/spr_collider_rect/spr_collider_rect.yy",},"LayerId":{"name":"5117cf62-2028-4006-b639-84fc5ffdb9b4","path":"sprites/spr_collider_rect/spr_collider_rect.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_collider_rect","path":"sprites/spr_collider_rect/spr_collider_rect.yy",},"resourceVersion":"1.0","name":"583c4071-7c95-4ffb-b031-7566e0af45ed","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"583c4071-7c95-4ffb-b031-7566e0af45ed","path":"sprites/spr_person_collider/spr_person_collider.yy",},"LayerId":null,"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"583c4071-7c95-4ffb-b031-7566e0af45ed","path":"sprites/spr_person_collider/spr_person_collider.yy",},"LayerId":{"name":"5117cf62-2028-4006-b639-84fc5ffdb9b4","path":"sprites/spr_person_collider/spr_person_collider.yy",},"resourceVersion":"1.0","name":null,"tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_person_collider","path":"sprites/spr_person_collider/spr_person_collider.yy",},"resourceVersion":"1.0","name":"583c4071-7c95-4ffb-b031-7566e0af45ed","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_collider_rect","path":"sprites/spr_collider_rect/spr_collider_rect.yy",},
+    "spriteId": {"name":"spr_person_collider","path":"sprites/spr_person_collider/spr_person_collider.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -42,7 +42,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6ed04673-7dcc-4e05-8171-a0cd4220abcf","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"583c4071-7c95-4ffb-b031-7566e0af45ed","path":"sprites/spr_collider_rect/spr_collider_rect.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"44fb3b81-eab8-4d13-8c06-34168e1a7b8e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"583c4071-7c95-4ffb-b031-7566e0af45ed","path":"sprites/spr_person_collider/spr_person_collider.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -59,9 +59,9 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_collider_rect","path":"sprites/spr_collider_rect/spr_collider_rect.yy",},
+    "parent": {"name":"spr_person_collider","path":"sprites/spr_person_collider/spr_person_collider.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_collider_rect",
+    "name": "spr_person_collider",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -69,11 +69,11 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5117cf62-2028-4006-b639-84fc5ffdb9b4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Colliders",
-    "path": "folders/Sprites/Colliders.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_collider_rect",
+  "name": "spr_person_collider",
   "tags": [],
   "resourceType": "GMSprite",
 }
